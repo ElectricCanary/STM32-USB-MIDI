@@ -10,6 +10,9 @@ Finally, the whole project can be unzipped and imported in STM32CubeIDE.
 ## Device Configuration Tool
 
 If using the Device Configuration Tool, you must **leave active** the **"USB_OTG_FS"** under "Connectivity" and the **"USB_DEVICE"** under "Middleware".
+
 Once the code is generated, you must **delete** the folders : **"Middlewares"** and **"USB_DEVICE"**.
+
 These are not needed since the whole USB interface is already in the "Core" folder.
+
 You'll also need to **delete** the **" #include "usb_interface.h" "** at the beginning of "main.c" (line 22).
