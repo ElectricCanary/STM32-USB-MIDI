@@ -2,10 +2,7 @@
 
 This is a USB class compliant MIDI interface for the STM32F411 "Blackpill".
 
-Under "Source" you'll find the core files that make the interface work.
 The .elf file allows to test on a board without having to compile the project yourself.
-Finally, the whole project can be unzipped and imported in STM32CubeIDE.
-
 
 ## Device Configuration Tool
 
